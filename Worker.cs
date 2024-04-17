@@ -17,6 +17,8 @@ namespace Eps.ServerMonitoring
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             GetUpdates();
+	    //README
+	    //I WANT TO DO SOMETHING
             //while (!stoppingToken.IsCancellationRequested)
             //{
             //    _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
